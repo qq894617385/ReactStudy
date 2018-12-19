@@ -13,6 +13,7 @@ class TodoItem extends Component {
     // 点击函数
     del(){
        this.props.delItem(this.props.index)
+       console.log('test')
     }
 }
 
